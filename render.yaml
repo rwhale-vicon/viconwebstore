@@ -1,0 +1,21 @@
+# Render Blueprint — New > Blueprint, point it at this repo.
+services:
+  - type: web
+    name: vicon-store
+    runtime: node
+    plan: starter
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      # Leave the Shopify vars empty to run the preview in demo mode.
+      - key: SHOPIFY_STORE_DOMAIN
+        sync: false
+      - key: SHOPIFY_STOREFRONT_TOKEN
+        sync: false
+      - key: SHOPIFY_API_VERSION
+        value: 2025-10
+      - key: CONTACT_WEBHOOK_URL
+        sync: false

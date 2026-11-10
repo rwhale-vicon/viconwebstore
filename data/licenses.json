@@ -1,0 +1,70 @@
+[
+  {
+    "handle": "vicon-nexus-licence",
+    "sku": "LIC-NEXUS",
+    "title": "Vicon Nexus",
+    "subtitle": "Life sciences & biomechanics",
+    "description": "The industry-standard platform for gait analysis, biomechanics and sports science. Capture, process and model motion data with clinically validated workflows.",
+    "features": ["Full-body & lower-limb modelling", "Plug-in Gait and custom models", "Force plate & EMG integration", "Python / MATLAB scripting"],
+    "category": "software-licences",
+    "productType": "Licence",
+    "kind": "licence",
+    "variants": [
+      {"id": "annual", "label": "Annual subscription", "interval": "year", "price": {"GBP": 1000, "USD": 1250}},
+      {"id": "monthly", "label": "Monthly subscription", "interval": "month", "price": {"GBP": 100, "USD": 125}}
+    ],
+    "needsReview": true,
+    "reviewNote": "Placeholder pricing - confirm licence prices and terms"
+  },
+  {
+    "handle": "vicon-shogun-live-licence",
+    "sku": "LIC-SHOGUN-LIVE",
+    "title": "Shōgun Live",
+    "subtitle": "Entertainment & virtual production",
+    "description": "Real-time, high-fidelity character capture for VFX, games and virtual production. Stream clean data straight into Unreal Engine, Unity and MotionBuilder.",
+    "features": ["Real-time solving & retargeting", "Multi-actor, prop & finger capture", "Unreal, Unity & MotionBuilder streaming", "Automatic gap filling"],
+    "category": "software-licences",
+    "productType": "Licence",
+    "kind": "licence",
+    "variants": [
+      {"id": "annual", "label": "Annual subscription", "interval": "year", "price": {"GBP": 1000, "USD": 1250}},
+      {"id": "monthly", "label": "Monthly subscription", "interval": "month", "price": {"GBP": 100, "USD": 125}}
+    ],
+    "needsReview": true,
+    "reviewNote": "Placeholder pricing - confirm licence prices and terms"
+  },
+  {
+    "handle": "vicon-shogun-post-licence",
+    "sku": "LIC-SHOGUN-POST",
+    "title": "Shōgun Post",
+    "subtitle": "Entertainment post-processing",
+    "description": "Powerful post-processing tools to clean, edit and finalise motion capture data, with scripting and batch processing to speed up your pipeline.",
+    "features": ["Advanced gap filling & cleanup", "HSL & Python scripting", "Batch processing", "FBX and industry-standard exports"],
+    "category": "software-licences",
+    "productType": "Licence",
+    "kind": "licence",
+    "variants": [
+      {"id": "annual", "label": "Annual subscription", "interval": "year", "price": {"GBP": 1000, "USD": 1250}},
+      {"id": "monthly", "label": "Monthly subscription", "interval": "month", "price": {"GBP": 100, "USD": 125}}
+    ],
+    "needsReview": true,
+    "reviewNote": "Placeholder pricing - confirm licence prices and terms"
+  },
+  {
+    "handle": "vicon-tracker-licence",
+    "sku": "LIC-TRACKER",
+    "title": "Vicon Tracker",
+    "subtitle": "Engineering, robotics & VR",
+    "description": "Low-latency object tracking for robotics, drones, VR and engineering applications. Simple setup with precise, reliable 6DoF data.",
+    "features": ["Ultra-low latency 6DoF tracking", "Drone & robotics workflows", "DataStream SDK & VRPN", "ROS integration"],
+    "category": "software-licences",
+    "productType": "Licence",
+    "kind": "licence",
+    "variants": [
+      {"id": "annual", "label": "Annual subscription", "interval": "year", "price": {"GBP": 1000, "USD": 1250}},
+      {"id": "monthly", "label": "Monthly subscription", "interval": "month", "price": {"GBP": 100, "USD": 125}}
+    ],
+    "needsReview": true,
+    "reviewNote": "Placeholder pricing - confirm licence prices and terms"
+  }
+]
